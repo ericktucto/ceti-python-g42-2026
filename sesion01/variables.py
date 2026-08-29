@@ -7,6 +7,7 @@ print(edad)
 print(nombre)
 print(mascota)
 print(f"Hola, soy {nombre}")
+print("Hola, soy " + nombre)
 print(f'Hola, soy {nombre}')
 
 precio = 19.9
