@@ -1,2 +1,6 @@
-0|Salir a comprar pan
-0|Pasear a Toby
+1|Salir a comprar pan
+1|Pasear a Toby
+0|Repasar las diapositivas
+
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*XVqPA2z1dTHJWm2TwIAsBw.gif
+https://mighil.com/static/images/2026/1787762642317_06-parity.webp?v1

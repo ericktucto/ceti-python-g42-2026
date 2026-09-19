@@ -1,1 +1,6 @@
-1|iPhone 15 Pro|3500
+1|Galletas|1.5
+2|Gaseosa personal|2.5
+3|Papas Lays|1.8
+4|Chocolate Princesa|3
+5|Chupetin Pop|1
+6|Gaseosa 3l|10

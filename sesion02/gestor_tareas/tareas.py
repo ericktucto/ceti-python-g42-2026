@@ -32,3 +32,25 @@ def cargar_tareas():
     except FileNotFoundError:
         print("No existe el archivo de tareas")
     return tareas
+
+
+def listar_tareas(tareas):
+    """Lista las tareas en pantalla usando este formato
+    # 1. [ ] o [x] <texto>
+    """
+    contador = 1
+    for tarea in tareas:
+        corchetes = "[x]" if tarea["hecha"] else "[ ]"
+        print(f"{contador}. {corchetes} {tarea['texto']}")
+        contador += 1
+
+
+def marcar_tarea(tareas, marcar: int):
+    indice = marcar - 1
+    if indice < 0 or marcar > len(tareas):
+        print("No existe esa tarea")
+        return None
+
+    tareas[indice]["hecha"] = not tareas[indice]["hecha"]
+    print("Tarea marcada como completada")
+
