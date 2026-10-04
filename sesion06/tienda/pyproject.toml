@@ -1,0 +1,31 @@
+[project]
+name = "tienda"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Erick Tucto", email = "erick@ericktucto.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.20.0",
+    "authlib>=1.8.0",
+    "fastapi[standard]>=0.141.1",
+    "httpx2>=2.13.1",
+    "psycopg2-binary>=2.9.13",
+    "pwdlib[argon2]>=0.3.1",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.2.3",
+    "sqlmodel>=0.0.47",
+]
+
+[project.scripts]
+tienda = "tienda:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.fastapi]
+entrypoint = "tienda:app"
+
